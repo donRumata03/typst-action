@@ -24,7 +24,7 @@ def compile(filename: str, options: list[str]) -> bool:
 
 def main():
 
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
 
     # Parse the positional arguments, expected in the following form
     #   1. The Typst files to compile in a line separated string
